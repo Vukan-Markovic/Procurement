@@ -1,0 +1,481 @@
+{
+  "designerVersion" : "1.10.44",
+  "id" : "naloziIPonude",
+  "name" : "naloziIPonude",
+  "lastUpdate" : 1589960884104,
+  "rows" : [
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "Nabavka"
+          },
+          "level" : {
+            "type" : "constant",
+            "value" : "Level 1"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "center"
+          }
+        },
+        "reference" : "6d947ee4-5516-4272-9003-0221b2194dd3",
+        "hasValidationError" : false,
+        "id" : "pbTitle"
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "Nalozi"
+          },
+          "level" : {
+            "type" : "constant",
+            "value" : "Level 2"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "center"
+          }
+        },
+        "reference" : "8eb2364b-a5f3-428d-8fc2-1be9bc805ef7",
+        "hasValidationError" : false,
+        "id" : "pbTitle"
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "expression",
+            "value" : ""
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "headers" : {
+            "type" : "constant",
+            "value" : [
+              "Datum kreiranja",
+              "Pokretač nabavke",
+              "Status",
+              "Nepotpun",
+              "Odbijen",
+              "Storniran"
+            ]
+          },
+          "content" : {
+            "type" : "expression",
+            "value" : "nalog"
+          },
+          "columnsKey" : {
+            "type" : "constant",
+            "value" : [
+              "datumKreiranja",
+              "pokretacNaloga",
+              "status",
+              "nepotpunNalog",
+              "odbijenNalog",
+              "storniranNalog"
+            ]
+          },
+          "selectedRow" : {
+            "type" : "variable",
+            "value" : ""
+          },
+          "striped" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "condensed" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "bordered" : {
+            "type" : "constant",
+            "value" : false
+          }
+        },
+        "reference" : "e0a33910-5a5c-4dc5-adef-833b99e26c7c",
+        "hasValidationError" : false,
+        "id" : "pbTable"
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "Proizvodi"
+          },
+          "level" : {
+            "type" : "constant",
+            "value" : "Level 2"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "center"
+          }
+        },
+        "reference" : "740f8976-e5e5-435a-912a-464a6ca9b1e3",
+        "hasValidationError" : false,
+        "id" : "pbTitle"
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "headers" : {
+            "type" : "constant",
+            "value" : [
+              "Šifra",
+              "Naziv",
+              "Opis",
+              "Jedinica",
+              "Količina",
+              "Cena"
+            ]
+          },
+          "content" : {
+            "type" : "constant",
+            "value" : [
+              "proizvod"
+            ]
+          },
+          "columnsKey" : {
+            "type" : "constant",
+            "value" : [
+              "sifra",
+              "naziv",
+              "opis",
+              "jedinica",
+              "kolicina",
+              "cena"
+            ]
+          },
+          "selectedRow" : {
+            "type" : "variable",
+            "value" : ""
+          },
+          "striped" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "condensed" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "bordered" : {
+            "type" : "constant",
+            "value" : false
+          }
+        },
+        "reference" : "b9b4968b-02d0-4649-aa9a-66de315b5d6c",
+        "hasValidationError" : false,
+        "id" : "pbTable"
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "Ponude"
+          },
+          "level" : {
+            "type" : "constant",
+            "value" : "Level 2"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "center"
+          }
+        },
+        "reference" : "1f4ed9f8-78ff-4b69-8f08-98d3edf3db9b",
+        "hasValidationError" : false,
+        "id" : "pbTitle"
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "headers" : {
+            "type" : "constant",
+            "value" : [
+              "Naziv dobavljača",
+              "Kontakt osoba",
+              "Adresa",
+              "Grad",
+              "Država",
+              "Poštanski broj",
+              "Broj telefona",
+              "Email",
+              "Način isporuke",
+              "Rok isporuke",
+              "Status",
+              "Razlog odbijanja"
+            ]
+          },
+          "content" : {
+            "type" : "constant",
+            "value" : [
+              "ponuda"
+            ]
+          },
+          "columnsKey" : {
+            "type" : "constant",
+            "value" : [
+              "nazivDobavljaca",
+              "kontaktOsoba",
+              "adresa",
+              "grad",
+              "drzava",
+              "postanskiBroj",
+              "brojTelefona",
+              "email",
+              "nacinIsporuke",
+              "rokIsporuke",
+              "status",
+              "razlogOdbijanja"
+            ]
+          },
+          "selectedRow" : {
+            "type" : "variable",
+            "value" : ""
+          },
+          "striped" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "condensed" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "bordered" : {
+            "type" : "constant",
+            "value" : false
+          }
+        },
+        "reference" : "68fec231-7e82-4cdb-980e-6bb072eda1fd",
+        "hasValidationError" : false,
+        "id" : "pbTable"
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "disabled" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Kreiraj novi nalog"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "center"
+          },
+          "buttonStyle" : {
+            "type" : "constant",
+            "value" : "primary"
+          },
+          "action" : {
+            "type" : "constant",
+            "value" : "Start process"
+          },
+          "assign" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "url" : {
+            "type" : "interpolation"
+          },
+          "responseStatusCode" : {
+            "type" : "variable",
+            "value" : ""
+          },
+          "dataToSend" : {
+            "type" : "constant"
+          },
+          "dataFromSuccess" : {
+            "type" : "variable",
+            "value" : ""
+          },
+          "closeOnSuccess" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "dataFromError" : {
+            "type" : "variable",
+            "value" : ""
+          },
+          "targetUrlOnSuccess" : {
+            "type" : "interpolation"
+          },
+          "collectionToModify" : {
+            "type" : "variable"
+          },
+          "modalId" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "collectionPosition" : {
+            "type" : "constant",
+            "value" : "Last"
+          },
+          "valueToAdd" : {
+            "type" : "constant"
+          },
+          "removeItem" : {
+            "type" : "variable"
+          }
+        },
+        "reference" : "2f8672cf-37f9-4a91-90f1-dbcc81f4c572",
+        "hasValidationError" : false,
+        "id" : "pbButton"
+      }
+    ]
+  ],
+  "assets" : [
+    {
+      "id" : "e4e0fa8c-69a5-4d9c-b4a4-838d0cadbf02",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "variables" : {
+    "proizvod" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"find [com.company.model.Proizvod]\",\"businessObjectName\":\"Proizvod\",\"query\":{\"name\":\"find\",\"displayName\":\"find\"},\"id\":\"com_company_model_Proizvod\",\"qualifiedName\":\"com.company.model.Proizvod\",\"filters\":[],\"pagination\":{\"p\":0,\"c\":10}}"
+      ],
+      "exposed" : false
+    },
+    "ponuda" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"find [com.company.model.Ponuda]\",\"businessObjectName\":\"Ponuda\",\"query\":{\"name\":\"find\",\"displayName\":\"find\"},\"id\":\"com_company_model_Ponuda\",\"qualifiedName\":\"com.company.model.Ponuda\",\"filters\":[],\"pagination\":{\"p\":0,\"c\":10}}"
+      ],
+      "exposed" : false
+    },
+    "nalog" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"find [com.company.model.Nalog]\",\"businessObjectName\":\"Nalog\",\"query\":{\"name\":\"find\",\"displayName\":\"find\"},\"id\":\"com_company_model_Nalog\",\"qualifiedName\":\"com.company.model.Nalog\",\"filters\":[],\"pagination\":{\"p\":0,\"c\":\"100\"}}"
+      ],
+      "exposed" : false
+    }
+  },
+  "hasValidationError" : false,
+  "uuid" : "b0c8107b-ecf6-45ba-9d7d-b056dbd22ba7",
+  "type" : "page",
+  "description" : "Page generated with Bonita UI designer"
+}
