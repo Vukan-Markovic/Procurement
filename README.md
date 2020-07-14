@@ -1,3 +1,3 @@
 # Procurement
 
-Bonita procurement management application.
+Bonita procurement management application
